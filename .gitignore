@@ -1,0 +1,32 @@
+# Virtual environments
+.venv/
+.venv*/
+venv/
+ENV/
+env/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Runtime uploads & generated outputs
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Environment variables
+.env
+.env.local
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local safety backups
+_backup_pre_cleanup/
+

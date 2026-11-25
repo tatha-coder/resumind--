@@ -1,0 +1,29 @@
+# Virtual environments and local caches
+venv/
+.venv/
+.venv*/
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+
+# Local secrets (set these in Vercel Project Environment Variables)
+.env
+.env.local
+
+# Heavy non-runtime / training / test directories
+archive/
+dataset/
+training/
+tests/
+uploads/*
+outputs/*
+.streamlit/
+colude.backend/
+_backup_pre_cleanup/
+
+# Local docs & launch scripts
+Resumind_AI_System_Architecture.pdf
+generate_architecture_pdf.py
+run.bat
+start.sh

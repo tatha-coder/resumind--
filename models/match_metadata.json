@@ -1,0 +1,9 @@
+{
+    "model_name": "ResumindMatchNet",
+    "input_dim": 1106,
+    "mae": 7.93,
+    "r2_score": 0.5243,
+    "epochs": 80,
+    "training_samples": 816,
+    "test_samples": 144
+}

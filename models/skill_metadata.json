@@ -1,0 +1,31 @@
+{
+    "skills": [
+        "Python",
+        "Java",
+        "C++",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "SQL",
+        "Docker",
+        "AWS",
+        "Machine Learning",
+        "Git",
+        "HTML",
+        "CSS",
+        "Excel",
+        "FastAPI"
+    ],
+    "input_size": 826,
+    "hidden_layers": [
+        128,
+        64
+    ],
+    "device_used": "cuda",
+    "training_examples": 96,
+    "testing_examples": 24,
+    "micro_f1": 0.7143,
+    "epochs": 100,
+    "model_type": "SouraSkillNet"
+}
